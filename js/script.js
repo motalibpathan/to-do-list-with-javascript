@@ -38,7 +38,7 @@ function addTask(e) {
 
 function removeTask(e) {
   if (e.target.hasAttribute("src")) {
-    if (confirm("Are you sure")) {
+    if (confirm("Are you sure?")) {
       let ele = e.target.parentElement.parentElement;
       ele.remove();
       showAlert("Task removed successful!", "alert-danger");
