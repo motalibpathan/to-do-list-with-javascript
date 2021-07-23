@@ -53,6 +53,7 @@ function removeAllTask(e) {
   if (confirm("Do you want remove all task?")) {
     taskList.innerHTML = "";
     showAlert("Successfully removed all task!", "alert-success");
+    localStorage.clear();
   }
 }
 function filterTask(e) {
