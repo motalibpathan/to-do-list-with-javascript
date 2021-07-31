@@ -22,8 +22,7 @@ body {
 .submit-btn:focus,
 #task_input:focus {
   color: white !important;
-  border: none;
-  border-bottom: 2px solid white !important;
+  border: 1px solid white;
 }
 #tasks {
   list-style-type: none;
