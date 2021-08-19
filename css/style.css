@@ -10,7 +10,6 @@ body {
   height: 75px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px rgb(197, 197, 197);
 }
 ::placeholder {
   color: black !important;
@@ -28,7 +27,6 @@ body {
   list-style-type: none;
   border-radius: 5px;
   padding: 30px 30px 150px 30px;
-  box-shadow: 5px 5px 10px rgb(197, 197, 197);
 }
 #tasks img {
   width: 35px;
